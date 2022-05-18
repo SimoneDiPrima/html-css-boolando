@@ -66,5 +66,22 @@ article{
     position:absolute;
     top:0;
     right:0;
-
+}
+.discount{
+    padding:0 5px;
+    min-width:30px;
+    height:20px;
+    background-color: red;
+    position:absolute;
+    left:0;
+    top:70%;
+}
+.sostenibilita{
+    position:absolute;
+    top:70%;
+    left:40px;
+    min-width:20px;
+    height:20px;
+    padding:5px 5px;
+    background-color:green;
 }
