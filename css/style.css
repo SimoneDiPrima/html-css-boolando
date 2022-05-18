@@ -2,4 +2,69 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    padding-top:100px;
+}
+
+.header-container{
+    height:100px;
+    width:100%;
+    display:flex;
+    background-color: orangered;
+    align-items:center;
+    justify-content:space-around;
+    position:fixed;
+    top:0;
+    left:0;
+    margin:0 auto;
+    color:white;
+}
+.logo{
+    height:50px;
+    text-align: center;
+}
+.header-lat{
+    height:50px;
+    display:flex;
+    width:25%;
+    vertical-align:middle;
+}
+.titolo-centrale{
+    width:50%;
+    text-align:center;
+    vertical-align:middle;
+}
+.main-container{
+    width:900px;
+    margin:0 auto;
+}
+.row{
+    display:flex;
+    margin-top:20px;
+}
+.colo{
+    flex-basis:30%;
+    padding:0 10px;
+}
+.sold-image{
+    height:350px;
+    width:250px;
+    background-size: contain;
+}
+article{
+    position:relative;
+}
+.bg-hearts{
+    height:40px;
+    width:40px;
+    background-color:white;
+    text-align:center;
+    vertical-align: middle;
+    font-size: 200%;
+    position:absolute;
+    top:0;
+    right:0;
+
 }
