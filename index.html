@@ -6,24 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Simone Di Prima">
     <meta name="description" content="Boolando">
+    <script src="https://kit.fontawesome.com/77b4cc17b1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Boolando</title>
 </head>
 <body>
    <header>
        <div class="header-container">
-           <div></div>
-            <ul class="header-lat">
+           
+            <ul class="header-lat" id="sin-items">
                 <li class="header-lat">Donna</li>
                 <li class="header-lat">Uomo</li>
                 <li class="header-lat">Bambino</li>
             </ul>
             <h3 class="titolo-centrale"><img class="logo" src="img/boolean-logo.png" alt=""></h3>
-            <ul class="header-lat">
-                <li class="header-lat">Donna</li>
-                <li class="header-lat">Uomo</li>
-                <li class="header-lat">Bambino</li>
+            <ul class="header-lat" id="dest-item">
+                <li class="header-lat"><i class="fa-solid fa-heart"></i></li>
+                <li class="header-lat"><i class="fa-solid fa-user"></i></li>
+                <li class="header-lat"><i class="fa-solid fa-bag-shopping"></i></li>
             </ul>
+            
 
         </div>
    </header> 
@@ -32,50 +34,67 @@
             <div class="colo">
                 <article>
                    
-                    <img class="sold-image" src="img/1.webp" alt="">
+                    <img class="sold-image" src="img/1.webp" id="img-man-one" alt="">
                    <span class="bg-hearts">&hearts;</span>
                    <span class="discount">-20%</span>
-                   <span class="sostenibilita">sostenibilita</span>
+                   <span class="sostenibilita" id="sostenibilita-prima">sostenibilita</span>
+                </article>
+                <figcaption>Levi's</figcaption>
+                    <h4>RELAXED TEE UNISEX</h4>
+                    <h5> 14,99€ <del class="red-price"> 29,99 €</del></h5>
+            </div>
+            <div class="colo">
+                <article>
+                    <img class="sold-image" src="img/2.webp" id="img-girl-one"alt="">
+                    <span class="bg-hearts">&hearts;</span>
+                    <span class="discount">-30%</span>
                 </article>
                 <figcaption>Guess</figcaption>
-                    <h3>RELAXED TEE UNISEX</h3>
+                    <h4>ROSES-TEE</h4>
+                    <h5> 20,99€ <del class="red-price"> 29,99 €</del></h5>
             </div>
             <div class="colo">
                 <article>
-                    <img class="sold-image" src="img/2.webp" alt="">
-                    <span class="bg-hearts">&hearts;</span>
-                    <span class="discount">-20%</span>
-                </article>
-            </div>
-            <div class="colo">
-                <article>
-                    <img class="sold-image" src="img/3.webp" alt="">
+                    <img class="sold-image" src="img/3.webp" id="img-girl-two"alt="">
                         <span class="bg-hearts">&hearts;</span>
-                        <span class="discount">-20%</span>
+                        <span class="discount">-30%</span>
                 </article>
+                <figcaption>Come zucchero filato</figcaption>
+                    <h4>VOGLIA DI COLORI PASTELLO</h4>
+                    <h5> 129,99€ <del class="red-price"> 184,99 €</del></h5>
             </div>
         </div>
         <div class="row">
             <div class="colo">
                 <article>
-                    <img class="sold-image" src="img/4.webp" alt="">
+                    <img class="sold-image" src="img/4.webp" id="img-man-two"alt="">
                      <span class="bg-hearts">&hearts;</span>
-                    <span class="discount">-20%</span>
+                    <span class="discount">-50%</span>
+                   <span class="sostenibilita"id="sostenibilita-prima">sostenibilita</span>
                 </article>
+                <figcaption>Levi's</figcaption>
+                    <h4>TEE UNISEX</h4>
+                    <h5> 14,99€ <del class="red-price"> 29,99 €</del></h5>
             </div>
             <div class="colo">
                 <article>
-                    <img class="sold-image" src="img/5.webp" alt="">
+                    <img class="sold-image" src="img/5.webp"id="img-girl-three" alt="">
                     <span class="bg-hearts">&hearts;</span>
-                    <span class="discount">-20%</span>
                 </article>
+                <figcaption>Maya's deluxe</figcaption>
+                    <h4>STRIPE BODICE</h4>
+                    <h5 class="red-price">99,99€</h5>
             </div>
             <div class="colo">
                 <article>
-                    <img class="sold-image" src="img/6.webp" alt="">
+                    <img class="sold-image" src="img/6.webp"id="img-girl-four" alt="">
                      <span class="bg-hearts">&hearts;</span>
-                   <span class="discount">-20%</span>
+                     <span class="sostenibilita">sostenibilita</span>
                 </article>
+                <figcaption>Esprit</figcaption>
+                    <h4>MAGLIONE - BLACK</h4>
+                    <h5 class="red-price"> 29,99€</h5>
+                
             </div>
         </div>
     </main>

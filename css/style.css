@@ -5,22 +5,25 @@
     font-family: sans-serif;
 }
 body{
-    padding-top:100px;
+padding-top:100px;
 }
 
 .header-container{
     height:100px;
     width:100%;
-    display:flex;
     background-color: orangered;
+    display:flex;
     align-items:center;
-    justify-content:space-around;
     position:fixed;
     top:0;
     left:0;
+    right:0;
     margin:0 auto;
     color:white;
+    z-index: 1;
 }
+#sin-item{
+   margin-left:50px;}
 .logo{
     height:50px;
     text-align: center;
@@ -30,6 +33,8 @@ body{
     display:flex;
     width:25%;
     vertical-align:middle;
+    align-items:center;
+    text-align: center;
 }
 .titolo-centrale{
     width:50%;
@@ -43,6 +48,7 @@ body{
 .row{
     display:flex;
     margin-top:20px;
+    position: relative;
 }
 .colo{
     flex-basis:30%;
@@ -54,7 +60,8 @@ body{
     background-size: contain;
 }
 article{
-    position:relative;
+  position:relative;
+  display:flex;
 }
 .bg-hearts{
     height:40px;
@@ -74,14 +81,54 @@ article{
     background-color: red;
     position:absolute;
     left:0;
-    top:70%;
+    top:85%;
+    color:white;
+    font-weight:bold;
 }
 .sostenibilita{
     position:absolute;
-    top:70%;
-    left:40px;
+    top:85%;
+    left:0;
     min-width:20px;
     height:20px;
-    padding:5px 5px;
+    padding:5px;
     background-color:green;
+    color:white;
+    line-height: 50%;
+    font-weight: bold;
 }
+#sostenibilita-prima{
+    margin-left:50px;
+}
+.red-price{
+    color:red;
+    margin-left:5px;
+}
+#img-man-one:hover{
+cursor: pointer;
+content: url('../img/1b.webp');
+}
+#img-girl-one:hover{
+    cursor: pointer;
+    content: url('../img/2b.webp');
+    }
+#img-girl-two:hover{
+        cursor: pointer;
+        content: url('../img/3b.webp');
+        }
+#img-man-two:hover{
+    cursor: pointer;
+    content: url('../img/4b.webp');
+     }
+#img-girl-three:hover{
+     cursor: pointer;
+    content: url('../img/5b.webp');
+     }
+ #img-girl-four:hover{
+    cursor: pointer;
+     content: url('../img/6b.webp');
+    }
+    .bg-hearts:hover{
+        cursor: pointer;
+        color:red;
+    }
