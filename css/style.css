@@ -11,35 +11,67 @@ padding-top:100px;
 .header-container{
     height:100px;
     width:100%;
+    margin:0 auto;
     background-color: orangered;
     display:flex;
     align-items:center;
+    justify-content:center;
     position:fixed;
     top:0;
     left:0;
     right:0;
-    margin:0 auto;
     color:white;
     z-index: 1;
 }
-#sin-item{
-   margin-left:50px;}
+.navbar{
+    max-width:1400px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+.nav-col{
+    width:250px;
+    display:flex;
+    justify-content:space-between;
+}
+.nav-col .right-menu{
+    display:flex;
+    align-self: right;
+}
 .logo{
     height:50px;
-    text-align: center;
+  
 }
-.header-lat{
+ul{
+    list-style-type:none;
+}
+.left-menu{
+    width:25%;
     height:50px;
     display:flex;
-    width:25%;
-    vertical-align:middle;
     align-items:center;
-    text-align: center;
 }
+.left-menu li{
+    margin-right:10px;
+}
+.right-menu{
+    width:25%;
+    height:50px;
+    display:flex;
+    align-items:center;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.right-menu li{
+    margin-left:10px;
+}
+
 .titolo-centrale{
+    height:30px;
     width:50%;
-    text-align:center;
-    vertical-align:middle;
+    align-self:center;
 }
 .main-container{
     width:900px;
@@ -132,3 +164,26 @@ content: url('../img/1b.webp');
         cursor: pointer;
         color:red;
     }
+.footer-finale{
+    margin:auto 0;
+    height:100px;
+    background-color: rgb(2, 1, 10);
+    
+}
+.titoletto-footer{
+    margin-left:50px;
+    color:white;
+    font-weight:bold;
+    display:flex;
+    align-items: center;
+}
+.footer-item-left{
+    width:50%;
+    display:flex;
+    justify-content: space-around;
+
+}
+.footer-item-right{
+    width:50%;
+    display:flex;
+}
