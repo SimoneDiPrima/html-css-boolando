@@ -166,19 +166,25 @@ content: url('../img/1b.webp');
     }
 .footer-finale{
     margin:auto 0;
-    height:100px;
-    background-color: rgb(2, 1, 10);
-    
+    background-color:rgb(14, 14, 29);
+    display:flex;
+    justify-content: space-between;
+}
+.colo-sin,.colo-dest{
+    width:90%;
+   margin:0 5%;
 }
 .titoletto-footer{
-    margin-left:50px;
+    margin:10px 0;
     color:white;
-    font-weight:bold;
-    display:flex;
-    align-items: center;
 }
-.footer-item-left{
-    width:50%;
+.footer-list-item{
     display:flex;
-    justify-content: space-around;
+    margin-bottom:20px;
+}
+.footer-minilist{
+    margin-right:10px;
+}
+.footer-minilist a:hover{
+    color:lightgray;
 }
